@@ -1,0 +1,15 @@
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 40px;
+}
+
+.material-icons {
+  cursor: pointer;
+  float: right;
+}
+
+.songlist-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
