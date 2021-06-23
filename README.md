@@ -4,7 +4,7 @@
 
 * **Website**
 
-  Ethans-Repertoire.netlify.app
+  ethans-repertoire.netlify.app
 
 * **Method:**
   
