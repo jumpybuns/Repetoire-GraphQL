@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jumpybuns/Lyrical-GraphQL"
+    "url": "https://github.com/jumpybuns/Repetoire-GraphQL.git"
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client"
