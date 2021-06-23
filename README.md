@@ -19,10 +19,10 @@
 
 * **Data Params**
 <br>Song List
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      {"query":"{\n  songs {\n    id\n    title\n    __typename\n  }\n}\n","operationName":""}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>{"query":"{\n  songs {\n    id\n    title\n    __typename\n  }\n}\n","operationName":""}
 
 <br>Lyric List
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      {"query":"query SongQuery($id: ID!) {\n  song(id: $id) {\n    id\n    title\n    lyrics {\n      id\n      content\n      __typename\n    }\n    __typename\n         
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>{"query":"query SongQuery($id: ID!) {\n  song(id: $id) {\n    id\n    title\n    lyrics {\n      id\n      content\n      __typename\n    }\n    __typename\n         
         }\n}\n","variables":{"id":"60cff8c9308710452443bb4e"},"operationName":"SongQuery"}
 
 
