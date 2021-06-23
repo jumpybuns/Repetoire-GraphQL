@@ -18,11 +18,11 @@
    <br>/#/songs/(id) - Song Page
 
 * **Data Params**
-Song List
-      {"query":"{\n  songs {\n    id\n    title\n    __typename\n  }\n}\n","operationName":""}
+<br>Song List
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      {"query":"{\n  songs {\n    id\n    title\n    __typename\n  }\n}\n","operationName":""}
 
-Lyric List
-      {"query":"query SongQuery($id: ID!) {\n  song(id: $id) {\n    id\n    title\n    lyrics {\n      id\n      content\n      __typename\n    }\n    __typename\n         
+<br>Lyric List
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      {"query":"query SongQuery($id: ID!) {\n  song(id: $id) {\n    id\n    title\n    lyrics {\n      id\n      content\n      __typename\n    }\n    __typename\n         
         }\n}\n","variables":{"id":"60cff8c9308710452443bb4e"},"operationName":"SongQuery"}
 
 
