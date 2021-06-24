@@ -15,8 +15,10 @@ class SongDetail extends Component {
 
     return (
       <div>
-        <Link to="/">back</Link>
-        <h3>{song.title}</h3>
+        <Link to="/" className="btn blue left">
+          <i className="material-icons">arrow_back</i>
+        </Link>
+        <h3 className="songdetail-title">{song.title}</h3>
         <LyricList lyrics={song.lyrics} />
         <LyricCreate songId={this.props.params.id} />
       </div>
