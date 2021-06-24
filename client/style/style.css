@@ -1,15 +1,45 @@
 .collection-item {
   display: flex;
   justify-content: space-between;
-
   padding: 40px;
 }
 
-.material-icons {
+/* .material-icons {
   cursor: pointer;
   float: right;
-}
+} */
 
 .songlist-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  align-content: flex-start;
+  padding-left: 5%;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+.create-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.songdetail-title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  align-items: center;
 }
