@@ -9,7 +9,7 @@ const app = express();
 
 // Replace with your mongoLab URI
 const MONGO_URI =
-  "mongodb+srv://Jumpybuns:Fanshawe1379@cluster0.vrz74.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://Jumpybuns:Fanshawe1379@cluster0.iafva.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 if (!MONGO_URI) {
   throw new Error("You must provide a MongoLab URI");
 }

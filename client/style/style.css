@@ -4,10 +4,10 @@
   padding: 40px;
 }
 
-/* .material-icons {
+.material-icons {
   cursor: pointer;
-  float: right;
-} */
+  margin-right: 5px;
+}
 
 .songlist-title {
   display: flex;
@@ -17,6 +17,7 @@
   font-weight: 100;
   letter-spacing: 1px;
   align-content: flex-start;
+  margin: 1rem;
   padding-left: 5%;
   word-spacing: 2px;
   color: #000000;
@@ -42,4 +43,14 @@
   font-weight: 100;
   letter-spacing: 1px;
   align-items: center;
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
+}
+.likes-box {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
