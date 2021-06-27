@@ -15,7 +15,7 @@ class SongDetail extends Component {
 
     return (
       <div>
-        <Link to="/" className="btn blue left">
+        <Link to="/" className="btn blue left" style={{ margin: "1rem" }}>
           <i className="material-icons">arrow_back</i>
         </Link>
         <h3 className="songdetail-title">{song.title}</h3>
